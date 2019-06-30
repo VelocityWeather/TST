@@ -17,7 +17,7 @@ This placefile read up to 6 Watches at a time.
 ini_set('error_reporting', E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE); // Show all errors minus STRICT, DEPRECATED and NOTICES
 ini_set('display_errors', 0); // disable error display
 ini_set('log_errors', 0); // disable error logging
-header('Content-Type: text/plain');
+
 
 $torcolor = "Color: 255 0 0";
 $svrcolor = "Color: 0 0 255";
